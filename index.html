@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-br">
+<html style="scroll-behavior: smooth;" lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,26 +9,29 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Munyck Matias</title>
 </head>
-<body class="min-h-screen bg-cover bg-center" style="background-image: url('assets/bg-01.png')">
+<body class="min-h-screen bg-cover bg-center" style="background-image: url('assets/pastel-sky.jpg')">
     <!-- Navbar -->
-    <nav class="navbar bg-violet-950 bg-opacity-75 fixed w-full z-50">
-        <div class="container mx-auto px-4 py-2">
-            <div class="flex items-center justify-between">
-                <a class="text-white text-lg font-bold" href="#">Munyck Matias</a>
-                <div class="flex space-x-8">
-                    <a class="text-white hover:text-gray-200" href="https://www.linkedin.com/in/munyckmatias/" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>LinkedIn</title><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" fill="white"/></svg>
-                    </a>
-                    <a class="text-white hover:text-gray-200" href="assets/CV%20–%20Munyck.Matias.pdf" target="_blank">
-                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><title>Curriculum Vitae</title><path d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-3 17h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z" fill="white"/></svg>
-                    </a>
-                    <a class="text-white hover:text-gray-200" href="https://github.com/munyck" target="_blank">
-                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Github</title><path d="M0 12.305c0 5.435 3.438 10.047 8.207 11.674.6.113.82-.267.82-.593 0-.292-.011-1.066-.017-2.093-3.339.744-4.043-1.65-4.043-1.65-.545-1.42-1.332-1.798-1.332-1.798-1.09-.764.083-.749.083-.749 1.203.087 1.837 1.268 1.837 1.268 1.071 1.88 2.809 1.338 3.493 1.022.109-.795.42-1.337.762-1.645-2.665-.31-5.466-1.365-5.466-6.08 0-1.343.467-2.442 1.235-3.302-.123-.311-.535-1.562.117-3.256 0 0 1.008-.33 3.3 1.261.958-.273 1.984-.409 3.005-.414 1.019.005 2.046.141 3.004.414 2.29-1.592 3.297-1.261 3.297-1.261.654 1.694.242 2.945.119 3.256.77.86 1.234 1.959 1.234 3.302 0 4.726-2.806 5.767-5.48 6.071.431.38.815 1.13.815 2.279 0 1.645-.015 2.971-.015 3.375 0 .329.216.712.825.591 4.765-1.63 8.2-6.239 8.2-11.672C24 5.508 18.627 0 12 0S0 5.508 0 12.305z" fill="white" fill-rule="evenodd"/></svg>
-                    </a>
+        <nav class="navbar bg-indigo-900 bg-opacity-75 fixed w-full z-50">
+            <div class="container mx-auto px-4 py-2">
+                <div class="flex items-center justify-between">
+                    <a class="text-white text-lg font-bold" href="#">Munyck Matias</a>
+                    <div class="flex space-x-8">
+
+                        <a class="text-white hover:text-gray-200" href="#about">
+                            Sobre mim
+                        </a>
+                        <a class="text-white hover:text-gray-200" href="#skills">
+                            Principais conhecimentos
+                        </a>
+                        <a class="text-white hover:text-gray-200" href="#contact">
+                            Contato
+                        </a>
+                    </div>
+
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <!-- Home -->
     <div class="flex flex-col items-center object-center">
         <img src="assets/photo.jpg" alt="photo" class="rounded-full w-60 h-60 mt-24">
@@ -36,8 +39,8 @@
         <p class="text-3xl text-white font-bold m-4 text-center">Desenvolvedora Full Stack</p>
     </div>
     <!-- Main -->
-    <div class="flex justify-center items-center">
-        <div class="bg-violet-950 bg-opacity-75 rounded-xl md:m-24 md:p-24 p-8 m-8 w-full">
+    <div id="about" class="flex justify-center items-center">
+        <div class="bg-indigo-900 bg-opacity-75 rounded-xl md:m-24 md:p-24 p-8 m-8 w-full">
             <p class="text-3xl text-white font-bold">Sobre mim:</p>
             <br>
             <p class="text-sm text-white text-justify md:m-12 md:text-2xl">
@@ -50,7 +53,7 @@
                 Estou determinada a crescer nesta área e a contribuir positivamente para projetos desafiadores e inovadores.
             </p>
             <br>
-            <p class="text-3xl text-white font-bold mt-12">Principais conhecimentos:</p>
+            <p id="skills" class="text-3xl text-white font-bold mt-12">Principais conhecimentos:</p>
             <div class="flex justify-center">
                 <div class="grid grid-cols-4 gap-4 md:grid-cols-4">
                     <svg class="mt-8 w-12 h-12 md:mt-12 md:w-24 md:h-24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><rect width="16" height="16" rx="2" fill="#4f5b93"/><g fill="#fff"><path d="M2.108 5.962h2.076c.61.005 1.051.181 1.325.527s.364.819.27 1.418a2.72 2.72 0 0 1-.24.806c-.118.263-.283.5-.495.712-.258.269-.535.44-.829.512s-.6.108-.914.108h-.93l-.294 1.472H1l1.108-5.555m.906.884L2.55 9.17a.57.57 0 0 0 .093.007h.109c.496.006.909-.043 1.24-.147.33-.108.552-.485.666-1.13.093-.543 0-.856-.28-.938-.273-.083-.616-.122-1.03-.116a2.169 2.169 0 0 1-.178.007h-.163l.008-.007M7.007 4.483h1.069l-.302 1.48h.96c.527.01.92.118 1.178.325.263.206.34.599.232 1.177l-.519 2.58H8.54l.496-2.463c.052-.259.036-.442-.046-.55s-.261-.163-.535-.163l-.86-.008-.635 3.184H5.891l1.116-5.562M11.292 5.962h2.076c.61.005 1.051.181 1.325.527s.364.819.271 1.418a2.72 2.72 0 0 1-.24.806c-.119.263-.284.5-.496.712-.258.269-.534.44-.829.512s-.599.108-.914.108h-.93l-.294 1.472h-1.077l1.108-5.555m.907.884-.465 2.324a.57.57 0 0 0 .093.007h.108c.496.006.91-.043 1.24-.147.33-.108.552-.485.666-1.13.093-.543 0-.856-.279-.938-.274-.083-.617-.122-1.03-.116a2.169 2.169 0 0 1-.179.007h-.162l.008-.007"/></g></svg>
@@ -59,7 +62,7 @@
                     <svg class="mt-8 w-12 h-12 md:mt-12 md:w-24 md:h-24" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve"><style type="text/css">	.st0{fill:#DD0031;}    .st1{fill:#C3002F;}    .st2{fill:#FFFFFF;}</style>                    <g>	<polygon class="st0" points="125,30 125,30 125,30 31.9,63.2 46.1,186.3 125,230 125,230 125,230 203.9,186.3 218.1,63.2 	"/><polygon class="st1" points="125,30 125,52.2 125,52.1 125,153.4 125,153.4 125,230 125,230 203.9,186.3 218.1,63.2 125,30 	"/><path class="st2" d="M125,52.1L66.8,182.6h0h21.7h0l11.7-29.2h49.4l11.7,29.2h0h21.7h0L125,52.1L125,52.1L125,52.1L125,52.1L125,52.1z M142,135.4H108l17-40.9L142,135.4z"/></g></svg>
                 </div>
             </div>
-            <p class="text-3xl text-white font-bold mt-12">Entre em contato comigo: </p>
+            <p id="contact" class="text-3xl text-white font-bold mt-12">Entre em contato comigo: </p>
             <br>
             <p class="text-sm text-white text-justify md:m-12 md:text-2xl">Qualquer dúvida, sugestão ou se quiser apenas bater um papo sobre tecnologia, é só me chamar!</p>
             <br>
@@ -76,10 +79,10 @@
         </div>
     </div>
     <!-- Footer -->
-    <footer class="bg-violet-950 bg-opacity-75 mt-12">
+    <footer class="bg-indigo-900 bg-opacity-75 mt-12">
         <div class="container mx-auto px-4 py-2">
             <div class="flex items-center justify-center">
-                <span class="text-sm text-white sm:text-center">© 2023. Todos os Direitos Reservados.</span>
+                <span class="py-4 text-white sm:text-center">© 2023. Todos os Direitos Reservados.</span>
             </div>
         </div>
     </footer>
